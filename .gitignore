@@ -1,0 +1,42 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+.coverage
+htmlcov/
+
+# Machine-specific settings and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.ssh/
+.aws/
+.DS_Store
+.idea/
+.vscode/
+
+# Generated experiments, compiler caches, and model weights
+/runs/
+/data/
+/models/
+/.cache/
+**/capture/
+**/raw_logits/
+*.pkl
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.log
+*.err
+*.zip
+*.tar
+*.tar.gz
+

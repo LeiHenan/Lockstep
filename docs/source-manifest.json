@@ -1,0 +1,398 @@
+{
+  "format_version": 1,
+  "note": "SHA-256 digests of public release files; the manifest itself is excluded. Internal paths and historical environment records are not included.",
+  "copied_files": [
+    {
+      "release": ".gitattributes",
+      "sha256": "89cfc79004ce924f620a91239705ab1d8c218839cedf92a3c8ab8f4715a1da31"
+    },
+    {
+      "release": ".github/workflows/tests.yml",
+      "sha256": "cae19ddf7ad8d0332e3e10f6cd0cfcdb2a81d7e78cbd4cbef12b18cca2bf5874"
+    },
+    {
+      "release": ".gitignore",
+      "sha256": "b0b08830c8196bbbe03ef641b9348d951f192722294c626b10cee2bd96696e30"
+    },
+    {
+      "release": "MANIFEST.in",
+      "sha256": "d09c3108b5ef29be8e97b4095a24d26d22273efd2a4ecf56cebffc1d37e94416"
+    },
+    {
+      "release": "README.md",
+      "sha256": "f9f82867a7f8765876f70bcf9714a11f1ee5d71679664bbc87af9eb6aa892123"
+    },
+    {
+      "release": "docs/github-metadata.json",
+      "sha256": "bfaae45f6f8d94b9230ca19debf9fa71bf1a1d774d5b139e2421809cd5239b4c"
+    },
+    {
+      "release": "docs/guard.md",
+      "sha256": "c48c39e19f2fc52e4be73a4c4fbfe73d2600c498e3340f573717cc15bab983bc"
+    },
+    {
+      "release": "docs/reproduction.md",
+      "sha256": "7001920102d78f68fa1b076597d1d5145311046ad4f4f9c094cfa2a5cffd4421"
+    },
+    {
+      "release": "docs/validation.md",
+      "sha256": "02b02b53a9ebb8dcefa400b1bac00fc5ad936d4f8e78e57b8f9d3c03bd0f7448"
+    },
+    {
+      "release": "examples/prompts.json",
+      "sha256": "d1690882b6a5043db180c3564c31885dda0e937ad800518eec0d2225e1f37cfc"
+    },
+    {
+      "release": "experiments/analysis/analyze_attr_e19.py",
+      "sha256": "2fcf67aa28197cb5f7bfd2b918d4230b27cc2fb7a73c380a84bc609600c9faaa"
+    },
+    {
+      "release": "experiments/analysis/analyze_e22b.py",
+      "sha256": "494240e385348a405544c93db2dec285742ecd15062970f06c50aa32fd39a39f"
+    },
+    {
+      "release": "experiments/analysis/analyze_e24.py",
+      "sha256": "1163633ef2d406a03359ef8c84a1b71c40edf4e9f01518830dc3feddf9ee5f70"
+    },
+    {
+      "release": "experiments/analysis/analyze_events.py",
+      "sha256": "a3080bb69f8f7c2fc7703c92a8568ffa17a5cb40a0fd06ba70d6974c95191a93"
+    },
+    {
+      "release": "experiments/analysis/analyze_groups.py",
+      "sha256": "d615ff1276aa9500997be3540e07e83316680a5383f4f1c502201dca3e89a2d4"
+    },
+    {
+      "release": "experiments/analysis/analyze_tier1.py",
+      "sha256": "fb427262e9a4ec406087e6358e74560c7cec2ca80c9aa117f77d6a7bf1e0df22"
+    },
+    {
+      "release": "experiments/analysis/predict_screen.py",
+      "sha256": "c56bb004a9617b6d59c4dd3478189adafd0fe458ec91a5abfa4e5f05999220f7"
+    },
+    {
+      "release": "experiments/probes/compare_determinism.py",
+      "sha256": "bf1f13594056c197fa5723ff830f256ae35374282ce048b8bc539b7a7d93ad68"
+    },
+    {
+      "release": "experiments/probes/determinism_probe.py",
+      "sha256": "01fab346a2e73b5c45f38a44edec10a361bfdf557830e09dd6a69e2f15cc0f42"
+    },
+    {
+      "release": "experiments/probes/pcie_contention.py",
+      "sha256": "562c33b98959f669f626d3f6af85b03d97c36e24d29e18a4ab798af5900bf94f"
+    },
+    {
+      "release": "lockstep/__init__.py",
+      "sha256": "9826691643c754a009a83c8aa02c54d2722f1352fb06cdfa4c4eb61ce156ad2b"
+    },
+    {
+      "release": "lockstep/ablate_identity.py",
+      "sha256": "220a26fb8ea3a70ae149609a61530bd7028fbc0efbf62c31de0ec9fcde67a49a"
+    },
+    {
+      "release": "lockstep/align.py",
+      "sha256": "3e170f450c727261063fbeb30cb75f588c92ba54e8eef71e88f0cb58750f7049"
+    },
+    {
+      "release": "lockstep/analyze_g7.py",
+      "sha256": "e30add7813a0ab6363f4a9f3cb6ceeca742a88782b99feefe4fe2ac7ab6933a6"
+    },
+    {
+      "release": "lockstep/analyze_k1l1.py",
+      "sha256": "dd25132411d85ed08171f5670a27bb149b0013b86ce13122c4fa3269997789c2"
+    },
+    {
+      "release": "lockstep/analyze_lgm.py",
+      "sha256": "a5e66c9b11ea83513461f83322ae03adcb424a49775d45c4f994c22d20fafe6a"
+    },
+    {
+      "release": "lockstep/analyze_liveguard.py",
+      "sha256": "4465a443702f461fc54bf6a7b611e3c09629111086e0297fd645dd0aa1b5760f"
+    },
+    {
+      "release": "lockstep/analyze_load.py",
+      "sha256": "16c7dc174d6646bda38a40c269a9037e8c062152c7917c79e2eebbef1fa8d3c5"
+    },
+    {
+      "release": "lockstep/analyze_planted.py",
+      "sha256": "1faa1688e5b24ac0eca45097bbfa124718db7c89fb730d2da51fcb8dc1eb982d"
+    },
+    {
+      "release": "lockstep/attribute.py",
+      "sha256": "1a4f58c5b3b29d31595543d0ad55f78c51d57b4a99645f600c865acd7719a2c1"
+    },
+    {
+      "release": "lockstep/awq_intervention.py",
+      "sha256": "b8e27193fc1c9c6a8a6bc79e068d41388dc60281dd66d8af53105fb12cff5cdb"
+    },
+    {
+      "release": "lockstep/baselines_offline.py",
+      "sha256": "e36b14d6767ce35c5a211bcbb9741fb958cf4dba710e1e141374ddf698de38ca"
+    },
+    {
+      "release": "lockstep/canary_choice.py",
+      "sha256": "313b9ad650dfc8ed895d77de0019cf3d64b237d111b8f7dd9e6730bd8ef034fd"
+    },
+    {
+      "release": "lockstep/canary_offline.py",
+      "sha256": "2cb7762458fe9f0cbbf8398420e712426d34b8cff220157012569a7aca41dd81"
+    },
+    {
+      "release": "lockstep/cf_report.py",
+      "sha256": "7cfa51e521ca5c0cd6780b55e59f876adb5b1521b27f4a260ea2bd4419dfd5c7"
+    },
+    {
+      "release": "lockstep/cluster_stats.py",
+      "sha256": "bb9474718011fdfe1dac3c2daf1026896367b3ad7bbadc4653bf4b3af288ceaa"
+    },
+    {
+      "release": "lockstep/codediff.py",
+      "sha256": "c1196b5206754b9c90d9f254638ef1f34b4b521b72899eb3d8c2ffbf125a53a7"
+    },
+    {
+      "release": "lockstep/cov_report.py",
+      "sha256": "62e0570848c7da43375bb3498ede72cf8008c2748261398305d7f09f425d2c55"
+    },
+    {
+      "release": "lockstep/cross_gpu.py",
+      "sha256": "3a3e3df6bee9dcb34a05193fc3bb30eb06668362727685e3b672e91c5e001468"
+    },
+    {
+      "release": "lockstep/decisions.py",
+      "sha256": "0f721458746faa52c8a971c5c9b4028cd4e14123edf19a960ba25297237611a3"
+    },
+    {
+      "release": "lockstep/e2_detection.py",
+      "sha256": "da5a6057ecf0256e7d47739877d9ce38a7b4397e4a26b5fc546225d7f26e0b74"
+    },
+    {
+      "release": "lockstep/e3_perturb.py",
+      "sha256": "3868035295b6b506e568d50b0f5b8a92b73799ba18d6c905c72613e53e89e424"
+    },
+    {
+      "release": "lockstep/e4_accuracy.py",
+      "sha256": "55242315cd86fc4fadb197e7097dafd38f745b409ec3bb46a5e974e76339af2b"
+    },
+    {
+      "release": "lockstep/e4_baseline.py",
+      "sha256": "d28f2d78c8b3774b73c960e020e9c642ba643c4a60947a4f95a62f22268ae878"
+    },
+    {
+      "release": "lockstep/e5_alignment.py",
+      "sha256": "9b2b6942c3d3ddcbd029ebd6f918120c78fce2152f698fec5fbd7e25c1c13140"
+    },
+    {
+      "release": "lockstep/env_robustness.py",
+      "sha256": "012d9c7646d8dec5090ce1b3c49f217f4ab9c6db9c7a7eb8319bdbce910c1632"
+    },
+    {
+      "release": "lockstep/explain_flag.py",
+      "sha256": "6210bd427fc32d79d3db195a75ebbf217b7db82dcb5f717867f6010edaeb0217"
+    },
+    {
+      "release": "lockstep/explore.py",
+      "sha256": "42dec0e6f258bd9c24ed1fbd413a19677ad3b27d4f0674f2495544e806a9313c"
+    },
+    {
+      "release": "lockstep/fc_report.py",
+      "sha256": "516b3f3f481e12653a67bb9a8f8a7c566c64009733ba70d70a5e407710ead21b"
+    },
+    {
+      "release": "lockstep/fh_report.py",
+      "sha256": "d4dc5605cfbf66ae8aab3a1ae16af6ad56b57e48da1d39600854bc24a9f49f16"
+    },
+    {
+      "release": "lockstep/fixed_env2.py",
+      "sha256": "0771f7fc3befbdb8056e1838e0a74f2074c7b49d561f459c77a56b3b229d90e0"
+    },
+    {
+      "release": "lockstep/fn_report.py",
+      "sha256": "753e9b7ac1c85b089823c474a506ee3748b6651cc374cdc82def6864b183706b"
+    },
+    {
+      "release": "lockstep/gpurun.py",
+      "sha256": "9700c49aa760b21653bbf42be144e9f13be4f962718b0547604fca48be9a4160"
+    },
+    {
+      "release": "lockstep/guard.py",
+      "sha256": "d3b81f7797bebd6d1bfd460c8c3aa27f5335130cf49d45dd68f6390ac15dd6ac"
+    },
+    {
+      "release": "lockstep/harm.py",
+      "sha256": "08d4d2d70c124f6caa6d25537a04db40c0456a937a0810cd1862cbde13ba2723"
+    },
+    {
+      "release": "lockstep/hashing.py",
+      "sha256": "a3c444b3cd0bd5679895f3d198661cc16c2a223d41ba163e17d60001819080ca"
+    },
+    {
+      "release": "lockstep/hb_report.py",
+      "sha256": "ed78a608763d911bbec84d74f76b6c72d7845763763db70d64940da68cf2e6ec"
+    },
+    {
+      "release": "lockstep/hold.py",
+      "sha256": "3f904eb573133bed7f0bad052b81aa047f40c98bd4f1f5dcb51d60f81d2923ea"
+    },
+    {
+      "release": "lockstep/hybrid_offline.py",
+      "sha256": "ed9ccb71627c1d2db214c01dac3978ba791beea5fecb1f767944ea7c5edd6c18"
+    },
+    {
+      "release": "lockstep/kv_digest_connector.py",
+      "sha256": "9c89ec4c0aee3df56f34f0b91a1fc8cde58ca0c905489742ef4ca2b064270a22"
+    },
+    {
+      "release": "lockstep/kv_truth.py",
+      "sha256": "97a361a583cd160e6433ab52068a3a4fe56097bdd66d5bf5ab6c9daac1a37553"
+    },
+    {
+      "release": "lockstep/kve_report.py",
+      "sha256": "c0a04c88b595a607f6b78efa1970744bf32ba1e73d8c7ca9a2e508149a25ebdb"
+    },
+    {
+      "release": "lockstep/ld_report.py",
+      "sha256": "eb8e17c5b5a3638931f4669a058b5c9e3d6377d04c156da9303e535948d99f74"
+    },
+    {
+      "release": "lockstep/live_guard.py",
+      "sha256": "267c39e20a7e4eae3297e4b9abbf1599d76c3df95b09992c3fab7bf70c3b0218"
+    },
+    {
+      "release": "lockstep/loadgen.py",
+      "sha256": "f1b6ac9334393601f15dc56e7e2b4a3d5e338744c4244348f2d25c4acff93ad9"
+    },
+    {
+      "release": "lockstep/locate_layer.py",
+      "sha256": "96f0cdceaec05cc4cbb336ed8e3881a067e0c40e652440661f109ab5fdbcab52"
+    },
+    {
+      "release": "lockstep/lowering_offline.py",
+      "sha256": "0630455f2c2a94c3775b4e6ec9c2d7bb0a928e2f4c90b5c7e2bb37631c529b90"
+    },
+    {
+      "release": "lockstep/minimize.py",
+      "sha256": "92cd2e0c780906f3d41c7a98c76aab8204223429f69423fa54016d2829c2112e"
+    },
+    {
+      "release": "lockstep/offline_r13.py",
+      "sha256": "9b3e5961b66fe9955a842992c9fe1fcea4d85b973cc5f0af0f73bc0f1784563a"
+    },
+    {
+      "release": "lockstep/opguard_like.py",
+      "sha256": "13e77b137f1eb61000eacb30744b53c59d6040da65fbcb1909804513a04753ce"
+    },
+    {
+      "release": "lockstep/p1_report.py",
+      "sha256": "30a2f82d39fb2a33c605beb87ee73f0cc9a5ee640d6b49e7e0a1e43487b1a28d"
+    },
+    {
+      "release": "lockstep/pd_harness.py",
+      "sha256": "529365d79e8a8f16b833ee7ba3b01965c3b853407de0693fd26a64498e64ee25"
+    },
+    {
+      "release": "lockstep/pool_connector.py",
+      "sha256": "111a9fc0f8f380ebf98756f81b67db8aca91258d773a851ee868c515c35652fb"
+    },
+    {
+      "release": "lockstep/pool_demo.py",
+      "sha256": "afaed68ccecd1db7c9e38985e6ad00b8e83d94676b825a2b807bdfd395daff7d"
+    },
+    {
+      "release": "lockstep/post_handshake.py",
+      "sha256": "fc0ab43ebd2788ec3196b9bc569aea658e3e4b574c122c2fdec1dde679565e0b"
+    },
+    {
+      "release": "lockstep/prompts.py",
+      "sha256": "920720f7726d380caabd71a4d9d57694d32d62d79c901734b7c1ebbda1e55a36"
+    },
+    {
+      "release": "lockstep/r14k_report.py",
+      "sha256": "e0958b3fcad84b1b8014ba26f5625646c54351252f03f46ae54b7a2bc8bf0a83"
+    },
+    {
+      "release": "lockstep/r14s_report.py",
+      "sha256": "871e364d075cba166531ae90c31149a2817020bc1ac5ac52c91905a533d0504a"
+    },
+    {
+      "release": "lockstep/runner.py",
+      "sha256": "5c4c268c639474261bddf6bb1652bdf63270a32ffafc74dae8bfaddf3411540a"
+    },
+    {
+      "release": "lockstep/runner_sgl.py",
+      "sha256": "2529ea5af836a3211daaa8cffc99e9763de789d7da267406521b7eacbd4b709c"
+    },
+    {
+      "release": "lockstep/rw_report.py",
+      "sha256": "4993bbb43403de6aadd195414794281bfab3f120f635c705f97750d3dbbe88e5"
+    },
+    {
+      "release": "lockstep/rw_timeline.py",
+      "sha256": "270f2a498c5ccc6d9986afcda493e0f9ed31f09dddeb570f455b03b9b83fdde0"
+    },
+    {
+      "release": "lockstep/sglang_adapter.py",
+      "sha256": "652e43d4605bfb9be91697246ac9ce80b33215508ebb1aaa2d400d645c33c4a2"
+    },
+    {
+      "release": "lockstep/soak.py",
+      "sha256": "d1fab7e38c1f03d18f0ecb0f94d868d0ddcf747ba5377edb5057f926c305378d"
+    },
+    {
+      "release": "lockstep/swap_analyze.py",
+      "sha256": "edf081070df85cdacc6dd0fe94874cc8348bb8b7485f769cf88f65f01ab1b16c"
+    },
+    {
+      "release": "lockstep/swap_configs.py",
+      "sha256": "76bd05da562dd730eacdb6a6945b87a457b4a0a1d66280a340bd88a2a4bfd989"
+    },
+    {
+      "release": "lockstep/timing_margin.py",
+      "sha256": "91dfb7df5e2821dd0428366b8c61ab4eabffc62e8a2ac10b46afcfabbfbd4330"
+    },
+    {
+      "release": "lockstep/tp_report.py",
+      "sha256": "e95ee5b7c630aa0fa0a5c1a7957b6d13a38c9c4e0e378dde8273f4a887c8d44d"
+    },
+    {
+      "release": "lockstep/v7_families.py",
+      "sha256": "50be808788d6ef6fab8aed03b70d8df81506321c02dea1efe3692e9177c4677b"
+    },
+    {
+      "release": "lockstep/v7s_report.py",
+      "sha256": "4907e3f26bdc334c348e7d86d3f74eff8c9f589a04c78420c2b3854f326ed000"
+    },
+    {
+      "release": "lockstep/vllm_plugin.py",
+      "sha256": "8fe55ed3ceaa9c1ccf7934e9b367cf18e1abdb2242053ff708a4ee6ea14376ac"
+    },
+    {
+      "release": "lockstep/xfer_rate.py",
+      "sha256": "fc53eca39d3162a8d01275bdc48575d97a7ed5831a45cacf3c2b0aa230830d2b"
+    },
+    {
+      "release": "pyproject.toml",
+      "sha256": "683e34d6c08b6fd6ce9f38caf91c237ad5ed9bd78be150de04190cc3ef69c2e4"
+    },
+    {
+      "release": "scripts/run_demo.py",
+      "sha256": "0a5f471d064a61d95f6b19c14082c89ae908c81daaff22a6b60c46cc424daa2f"
+    },
+    {
+      "release": "scripts/verify_source.py",
+      "sha256": "42562861bc05f00a1e348f65e800b0e22dbbe4b99616dfc9961a4971076c310c"
+    },
+    {
+      "release": "sitecustom/sitecustomize.py",
+      "sha256": "d364c6415feae5b73df8ae5d2b3c04f5d9751ba40789ab7b11149e17ad4c90c0"
+    },
+    {
+      "release": "tests/test_guard_v7.py",
+      "sha256": "55ac1bdb68ac722fa90d2a58d21d76321b1e92c0692e838764c29bfd059ff40b"
+    },
+    {
+      "release": "tests/test_portable_inputs.py",
+      "sha256": "8bb173e83692bf130abb491a565c65d1a05554bf3120db5d26f63dd673c4dd4c"
+    }
+  ]
+}

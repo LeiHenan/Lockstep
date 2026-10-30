@@ -33,11 +33,8 @@ python scripts/verify_source.py
 ```
 
 GPU experiments additionally require Linux, NVIDIA GPUs, and a compatible
-PyTorch/Triton/vLLM installation. The recorded final experiments used vLLM
-0.32.0 and a specific development revision; see the recorded
-[environment matrix](docs/reproduction.md#recorded-environments). Engine
-dependencies are installed separately because their CUDA builds must match the
-host. Installing Lockstep registers its vLLM general-plugin entry point.
+PyTorch/Triton/vLLM installation. Engine dependencies are installed separately because their CUDA builds must match
+the host; see [setup requirements](docs/reproduction.md#engine-requirements). Installing Lockstep registers its vLLM general-plugin entry point.
 
 ## Try the examples
 
@@ -84,14 +81,11 @@ in [reproduction](docs/reproduction.md).
 | `scripts/` | Portable demo launcher and source-integrity check |
 | `examples/` | Original smoke test prompts |
 | `experiments/analysis/` | Earlier standalone analysis programs |
-| `experiments/legacy/specs/` | Historical study configurations, generators, and experiment launchers |
-| `experiments/preregistrations/` | Final-stage experiment plans copied from the research tree |
 | `experiments/probes/` | Earlier determinism and contention probes |
 | `sitecustom/` | SGLang capture bootstrap |
 | `docs/` | Guard semantics, reproduction instructions, and source manifest |
 
-Historical experiment launchers retain their recorded filesystem layout and
-require adaptation. Use `scripts/run_demo.py` for a first run on a new host.
+Use `scripts/run_demo.py` for a first run on a new host.
 
 ## Main modules
 
@@ -115,17 +109,16 @@ Use the v7 parts and verdicts recorded by the live guard; see
 
 ## Source provenance
 
-The 72 Python package modules are copied byte for byte from the project's
-working tree. The original regression tests, SGLang bootstrap, and selected
-experiment sources are also preserved. [The source manifest](docs/source-manifest.json)
-records their paths and SHA-256 digests. Repository documentation, packaging,
-CI, the demo launcher, and the integrity script are added for this distribution.
+This release retains all 72 Python package modules, the original v7 regression
+suite, analysis programs, and probes. Public packaging adds documentation, CI,
+and portable examples. Host-specific launchers and experiment plans are excluded.
+Model and dataset locations are explicit inputs; cache and interpreter paths can
+be configured by the operator. The offline environment study uses synthetic data.
 
-Raw captures, model weights, compiler caches, server mirrors, manuscript drafts,
-SSH configuration, and the original Git history are outside this code release.
-The manifest's commit identifies the source repository HEAD; it does not assert
-that every working-tree file matched that commit. Historical tag names in the
-experiment plans refer to the original research repository.
+The identity implementation and online guard are preserved byte for byte from
+the supplied source archive. Portability changes affect launchers, input paths,
+and offline diagnostics. [The source manifest](docs/source-manifest.json) records
+SHA-256 digests of the public release files without internal source paths.
 
 See [local validation](docs/validation.md) for the checks performed on this
 distribution and their limits.

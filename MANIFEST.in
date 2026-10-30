@@ -1,0 +1,9 @@
+include README.md pyproject.toml .gitignore .gitattributes
+recursive-include docs *.md *.json
+recursive-include scripts *.py
+recursive-include examples *.json
+recursive-include experiments *.py
+recursive-include sitecustom *.py
+recursive-include tests *.py
+recursive-include .github *.yml
+global-exclude __pycache__ *.py[cod]

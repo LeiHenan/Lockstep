@@ -1,0 +1,29 @@
+name: CPU checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install -e '.[dev]'
+      - run: python -m pytest -q
+      - run: python scripts/verify_source.py
+      - run: python scripts/run_demo.py explore --model /path/to/model --dry-run
+      - run: python scripts/run_demo.py pd --model /path/to/model --dry-run
+      - run: python scripts/run_demo.py kv --model /path/to/model --dry-run
+      - run: python -m build
+

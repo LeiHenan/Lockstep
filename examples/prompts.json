@@ -1,0 +1,7 @@
+[
+  "Extract the city and event from this sentence as a JSON object: The compiler workshop took place in Shanghai.",
+  "Return a JSON object with product and quantity: A customer ordered three notebooks.",
+  "List two reasons why repeated floating-point reductions can yield different low-order bits.",
+  "Complete this sentence in one short clause: A cached attention key can be reused when"
+]
+

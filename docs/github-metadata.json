@@ -1,0 +1,12 @@
+{
+  "suggested_name": "lockstep",
+  "description": "Research prototype for guarding cross-instance KV cache reuse in LLM serving with compiler-derived numerical identities, runtime admission checks, and divergence diagnostics.",
+  "topics": [
+    "llm-serving",
+    "kv-cache",
+    "vllm",
+    "mlsys",
+    "numerical-reproducibility",
+    "disaggregated-inference"
+  ]
+}
